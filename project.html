@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="rss/css/style.css">
+    <link rel="stylesheet" href="rss/css/midiaquery.css">
+    <link rel="stylesheet" href="rss/css/projects.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet" />
+</head>
+<body>      
+      <nav class="desktopnav">
+        <!-- hambarger -->
+        <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+      
+          <ul class="menu__box">
+            <li><a class="menu__item" href="index.html">Home</a></li>
+            <li><a class="menu__item" href="about.html">About.</a></li>
+            <li><a class="menu__item" href="project.html">Projects</a></li>
+            <li><a class="menu__item" href="contact.html">Contact</a></li>
+            
+          </ul>
+        </div>
+
+        <!--  desktop navber -->
+        <a  class="icon" href="index.html">Portfolio</a>
+        <ul class="nav">
+          <li><a href="index.html"> Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="project.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul> 
+      </nav>
+             
+<main>
+  <div class="main">
+      <div class="container_rap">
+        <img src="rss/image/left.png" id="leftbtn">
+        <div class ="container_card">
+        <div class="project">
+          
+            <div class="pcontent">
+              <img class="pimage" src="rss/image/Project-1.png" />
+              <p>Weather webApp</p>
+              <div class="pbutton">
+                <button  onclick="document.location= 'https://github.com/arpan9932/Weather_WebApp.github.io'" class="btn">GitHub</button>
+                <button  onclick="document.location= 'https://arpan9932.github.io/Weather_WebApp.github.io/'" class="btn">Live</button>
+              </div>
+            </div>
+            <div class="pcontent">
+              <img class="pimage" src="rss/image/Project-2.png" />
+              <p>Online Calculator</p>
+              <div class="pbutton">
+                <button onclick="document.location= 'https://github.com/arpan9932/Calculator'"  class="btn">GitHub</button>
+                <button  onclick="document.location= 'https://arpan9932.github.io/Calculator/'" class="btn">Live</button>
+              </div>
+            </div>
+            <div class="pcontent">
+              <img class="pimage" src="rss/image/Project-3.png" />
+              <p>Tic Toc Toi</p>
+              <div class="pbutton">
+                <button onclick="document.location= 'https://github.com/arpan9932/TIC_TAC_TOI'" class="btn">GitHub</button>
+                <button onclick="document.location= 'https://arpan9932.github.io/TIC_TAC_TOI/'"  class="btn">Live</button>
+              </div>
+            </div>
+          
+        </div> 
+
+        <div class="project">
+          
+          <div class="pcontent">
+            <img class="pimage" src="rss/image/project 4.jpg" />
+            <p>To Do List</p>
+            <div class="pbutton">
+              <button onclick="document.location= 'https://github.com/arpan9932/TODO_LIST'"class="btn">GitHub</button>
+              <button onclick="document.location= 'https://arpan9932.github.io/TODO_LIST/' " class="btn">Live</button>
+            </div>
+          </div>
+          <div class="pcontent">
+            <img class="pimage" src="rss/image/project 5.jpeg" />
+            <p>Technical Fourm</p>
+            <div class="pbutton">
+              <button  onclick="document.location= 'https://github.com/arpan9932/Tecnical_fourm_website'" class="btn">GitHub</button>
+              <button class="btn">Live</button>
+            </div>
+          </div>
+          <div class="pcontent">
+            <img class="pimage" src="rss/image/project 6.png" />
+            <p>MyNots</p>
+            <div class="pbutton">
+              <button onclick="document.location= 'https://github.com/arpan9932/MyNotes'" class="btn">GitHub</button>
+              <button class="btn">Live</button>
+            </div>
+          </div>
+        
+      </div>
+
+    </div>
+        <img src="rss/image/right.png" id="rightbtn">
+      </div>
+      <div class="sm "><buton onclick="document.location= 'https://github.com/arpan9932?tab=repositories'"   class="btn">See More</buton></div>
+    </div>
+    </main>
+    <footer id="aboutfoot">
+      <p>Copyright @ 2024 </p>
+      <div class="share">
+        <div class="social">
+            <a href="https://www.facebook.com/arpan.bera.1997"><i class="bx bxl-facebook"></i></a>
+            <a href="https://twitter.com/arpan_bera01"><i class="bx bxl-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/arpan-bera-681a501b7/"><i class="bx bxl-linkedin"></i></a>
+           <a href="https://www.instagram.com/arpanbera_/?hl=en"><i class='bx bxl-instagram'></i></a>
+           
+        </div>
+    </div>
+    </footer>
+
+
+<!-- <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+<script src="rss/javascript/script.js"></script>  -->
+<script>
+  let scrollContainer=document.querySelector(".container_card");
+  let leftbtn=document.getElementById("leftbtn");
+  let rightbtn=document.getElementById("rightbtn");
+  scrollContainer.addEventListener("wheel",(evt)=>{
+    evt.preventDefault();
+    scrollContainer.scrollLeft+=evt.deltaY;
+  });
+  leftbtn.addEventListener("click",()=>{
+    scrollContainer.style.scrollBehaviour="smooth";
+    scrollContainer.scrollLeft -= 356;
+  });
+  rightbtn.addEventListener("click",()=>{
+    scrollContainer.style.scrollBehaviour="smooth";
+    scrollContainer.scrollLeft += 356 ;
+  });
+</script>
+</body>
+</html>

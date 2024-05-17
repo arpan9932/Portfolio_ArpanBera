@@ -1,0 +1,129 @@
+/* for laptop */
+@media screen and (max-width: 2561px) {
+  .home-img{
+    height: 360px;
+}
+.home{
+  justify-content: space-between;
+}
+.mobile{
+  display: none;
+}
+.home-text p{
+  font-size: var(--p-font);
+  width: 87%;
+}
+.home-text span{
+  padding: 5px 25px;
+}
+.profile_name{
+  margin: 23px 0;
+  font-size:4rem;
+}
+.share{
+
+  bottom: 26%;
+  left: 14%;
+}
+
+
+
+}
+
+@media screen and (max-width: 1280px) {
+  .desktopnav {
+    padding: 32px 13%;
+  }
+}
+
+
+@media screen and (max-width: 1080px) {
+  .home-img{
+    height: 260px;
+}
+.profile_name{
+  font-size:3rem;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+  .desktopnav {
+    padding: 32px 78%;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+  .home{
+    padding-left: 87px;
+  }
+  .share{
+    left: 10%;
+  }
+}
+@media screen and (max-width: 749px) {
+.home{
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+.share{
+  bottom: 15%;
+}
+}
+
+@media screen and (max-width: 430px) {
+  .icon {
+    font-size: 33px;
+    padding-top: 4px;
+  }
+  .menu__btn {
+    left: 20px;
+  }
+  .Student{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+  .destop_p{
+    display: none;
+  }
+  .home-text p{
+    font-size: 13px;
+    width: 100%;
+  }
+  .share{
+    left: 15%;
+  }
+}
+@media screen and (max-width:417px){
+  .home-img{
+    height: 230px;
+}
+.profile_name{
+  font-size:2rem;
+}
+}
+@media screen and (max-width:313px){
+  .profile_name{
+    font-size:20px;
+  }
+  .home-text span{
+    padding: 0px 0px;
+  }
+  .profile_name{
+    margin: 8px 0;
+  }
+  .home-img{
+    height: 206px;
+    margin-bottom: 9px;
+    margin-right: 46px;
+}
+.share{
+  bottom: 18%;
+  left: 21%;
+}
+}
